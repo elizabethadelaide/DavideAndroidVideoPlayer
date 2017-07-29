@@ -10,6 +10,6 @@ Video Player for a gallery which allows:
 2. An alarm to be set by gallery staff to close the application at closing
 3. The ability to upload new videos
 
-<a href="https://github.com/elizabethadelaide/DavideAndroidVideoPlayer/raw/master/Documentation.pdf">Documentation</a>
+<a href="https://github.com/elizabethadelaide/DavideAndroidVideoPlayer/raw/master/Android Video Player for Gallery Use.pdf">Documentation</a>
 
-<a href="https://github.com/elizabethadelaide/DavideAndroidVideoPlayer/raw/master/">Code Repository</a>
+<a href="https://github.com/elizabethadelaide/DavideAndroidVideoPlayer">Code Repository</a>
