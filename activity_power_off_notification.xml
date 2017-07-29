@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elizabeth.myapplication.PowerOffNotification"
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gallery is closed"
+        android:textAlignment="center"
+        android:textSize="100sp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:id="@+id/furtherInformation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="@string/Closing_Text"
+        android:layout_below="@+id/textView" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/powerExitButton"
+        android:text="Exit to Home Application"
+        android:layout_below="@+id/furtherInformation"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

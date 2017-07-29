@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elizabeth.myapplication.AddNewVideo"
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoInformation"
+        android:layout_marginTop="60sp"
+        android:text="@string/new_video_text"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectVideoButton"
+        android:text="@string/select_video"
+        android:layout_marginBottom="60sp"
+        android:layout_marginTop="60sp"
+
+        android:layout_below="@id/videoInformation"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/launchBrowserButton"
+        android:layout_below="@id/selectVideoButton"
+        android:text="@string/launch_browser_text"/>
+
+</RelativeLayout>

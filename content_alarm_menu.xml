@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elizabeth.myapplication.AlarmMenu"
+    tools:showIn="@layout/activity_alarm_menu">
+
+    <TimePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alarmTimePicker"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alarmButton"
+        android:text="Play Video"
+        android:layout_below="@+id/alarmTimePicker"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:id="@+id/alarmText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/alarmButton"
+        android:padding="5sp"
+        android:text="@string/Opening_Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="14sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/exitButton"
+        android:text="Exit to Home Application"
+        android:layout_below="@+id/alarmText"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newVideoButton"
+        android:text="Choose new video"
+        android:layout_below="@+id/exitButton"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+
+</ScrollView>
+

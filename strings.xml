@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Video Player</string>
+    <string name="title_activity_app_context">AppContext</string>
+    <string name="title_activity_alarm_menu">AlarmMenu</string>
+    <string name="Opening_Text">Please enter the time that the gallery will close, the phone will loop the video until that time. At close the video will end and the phone can be turned off.</string>
+    <string name="Closing_Text">Please hold the power button and turn the phone off. The app will restart when the phone is turned back on.</string>
+    <string name="saved_hour">19</string>
+    <string name="saved_minute">0</string>
+    <string name="chooser_title">Choose the built in home app (Joy Launcher)</string>
+    <string name="browser_chooser_title">Select your browser</string>
+    <string name="new_video_text">Select a video from the file system. The video will overwrite the current video. If the file is not on the phone, open the browser to download it. Then select it from this menu. The file can also manu
+    ally be placed in the file system using a computer.</string>
+    <string name="select_video">Select video from file system</string>
+    <string name="launch_browser_text">Launch Browser to download file</string>
+</resources>
+
